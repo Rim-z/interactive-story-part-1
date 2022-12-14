@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-color: black;
+  font-family: cursive;
+}
+
+.glow {
+    letter-spacing: 1rem;
+   margin-top: 20%;
+  font-size: 100px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2871b4, 0 0 40px #317ee2, 0 0 50px #0092e6, 0 0 60px #0051e6, 0 0 70px #3200e6;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #4de4ff, 0 0 40px #4dcdff, 0 0 50px #4dc7ff, 0 0 60px #4d59ff, 0 0 70px #4dffff, 0 0 80px #4d68ff;
+  }
+}
+</style>
+</head>
+<body>
+    <audio src="/music/Game Over sound effect.mp3" autoplay ></audio>
+<h1 class="glow">Game Over</h1>
+     
+</body>
+</html> 
